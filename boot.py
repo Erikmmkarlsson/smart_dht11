@@ -4,6 +4,10 @@ import machine
 import keys
 wlan = WLAN(mode=WLAN.STA)
 
+"""
+Use wifi pass and ssid in keys.py.
+"""
+
 nets = wlan.scan()
 for net in nets:
     if net.ssid == keys.wifi_ssid:
