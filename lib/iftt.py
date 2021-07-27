@@ -3,6 +3,11 @@ import keys
 import sys
 
 class iftt:
+    """
+    Credits:
+    By Erik Karlsson
+    Inspired by webrequests.py by zerox13.
+    """
     def send_request(event):
         """
         input: event that you set up in IFTT.
